@@ -1,0 +1,17 @@
+<!--
+  这是公众号「文章（news）」类型发布时，自动追加到正文末尾的 HTML 模板。
+  作用：每篇文末固定签名（个人简介、加微信、二维码 CTA 等）。
+
+  复制成 footer.html 放到：
+    - 项目级（优先）：<项目根>/.ds-skills/ds-post-to-wechat/footer.html
+    - 用户级（兜底）：~/.ds-skills/ds-post-to-wechat/footer.html
+
+  如果完全不需要 footer，可以删掉这个文件，发布时不会追加任何内容。
+
+  下面是一份示例骨架，按你自己的情况改文案、颜色、CTA：
+-->
+
+<p class="p" style="margin: 1.5em 8px 1.2em 8px; color: #C0392B; font-weight: bold; font-size: 16px; letter-spacing: 0.1em;">—END—</p>
+<p class="p" style="margin: 1.5em 8px; color: #3f3f3f; letter-spacing: 0.1em; line-height: 1.85; font-size: 15px;">[在此填入你的一句话自我介绍]</p>
+<p class="p" style="margin: 1.5em 8px; color: #3f3f3f; letter-spacing: 0.1em; line-height: 1.85; font-size: 15px;">[在此填入第二行：你在做什么 / 社群规模 / 等社会证明]</p>
+<p class="p" style="margin: 1.5em 8px; color: #3f3f3f; letter-spacing: 0.1em; line-height: 1.85; font-size: 15px;"><span style="color: #C0392B; font-weight: bold;">加我：你的微信号</span>，[在此填入加微信的理由/价值主张]</p>

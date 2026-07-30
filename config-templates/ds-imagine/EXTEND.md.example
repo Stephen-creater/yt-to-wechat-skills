@@ -1,0 +1,20 @@
+# 复制成 EXTEND.md 放到：
+#   - 项目级（优先）：<项目根>/.ds-skills/ds-imagine/EXTEND.md
+#   - 用户级（兜底）：~/.ds-skills/ds-imagine/EXTEND.md
+
+# ds-imagine preferences
+
+## Defaults
+
+- default_provider: openai
+- default_quality: 2k
+- default_aspect_ratio: 16:9
+- default_image_api_dialect: openai-native
+
+## default_model
+
+- openai: gpt-image-2
+
+## Save location
+
+- save_dir: ~/Desktop/cover-image    # 改成你想保存图片的目录

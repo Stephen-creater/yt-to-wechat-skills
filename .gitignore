@@ -1,0 +1,7 @@
+.DS_Store
+.ds-skills/
+.compile-runs/
+work/
+cover-image/
+node_modules/
+*.log

@@ -1,0 +1,35 @@
+# 复制成 EXTEND.md 放到：
+#   - 项目级（优先）：<项目根>/.ds-skills/ds-post-to-wechat/EXTEND.md
+#   - 用户级（兜底）：~/.ds-skills/ds-post-to-wechat/EXTEND.md
+
+# -------------------------------------------------------------------
+# 基本偏好
+# -------------------------------------------------------------------
+default_theme: dasheng                  # 可选：default / grace / simple / modern / dasheng
+default_font_family: sans
+default_author: 在此填入你的笔名/公众号名
+need_open_comment: 1                    # 1=开评论 0=关
+only_fans_can_comment: 0                # 1=仅粉丝可评论
+
+# -------------------------------------------------------------------
+# 发布方式（默认本地直连）
+#
+# api        = 本地直连微信 API（推荐 / 简单 / 默认）
+#              前提：本机 IP 已加到公众号后台 IP 白名单
+#
+# remote-api = 通过 SSH 隧道从你的 VPS 出口（仅当你的家宽 IP 经常漂移时启用）
+#              下方 remote_publish_* 全部要填
+# -------------------------------------------------------------------
+default_publish_method: api
+
+# -------------------------------------------------------------------
+# 可选：SSH 隧道配置（只在 default_publish_method=remote-api 时生效）
+# 把下面取消注释并填好。要把 VPS 的出口 IP 加到公众号后台白名单。
+# -------------------------------------------------------------------
+# remote_publish_host: <你的 VPS 公网 IP 或域名>
+# remote_publish_user: <ssh 用户名>
+# remote_publish_port: 22
+# remote_publish_identity_file: ~/.ssh/<你的 ssh key 文件名>
+# remote_publish_known_hosts_file: ~/.ssh/known_hosts
+# remote_publish_strict_host_key_checking: accept-new
+# remote_publish_connect_timeout: 10
