@@ -2,7 +2,7 @@
 name: ds-yt-to-wechat-content
 version: v1.7.1
 language: zh-CN
-description: 将 YouTube 链接或 `yt-内容萃取` 生成的播客转述摘要，转成可进入微信公众号发布流程的公众号文字稿。适用于用户说“ds-yt-to-wechat-content”“yt 生成公众号”“YouTube 生成公众号”“youtube 到公众号”“把这期 YouTube 写成公众号”“转述摘要转公众号”“播客改成文章”“从播客生成公众号稿”“这期播客我想写成内容”等场景。
+description: "将 YouTube 视频或播客转述摘要改写成公众号文字稿。"
 ---
 
 # ds-yt-to-wechat-content

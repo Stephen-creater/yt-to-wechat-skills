@@ -1,6 +1,6 @@
 ---
 name: ds-imagine
-description: AI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images.
+description: "使用本机配置的图像 API 生成或编辑图片；用于指定供应商、批量任务或 ds 工作流。"
 version: 1.58.0
 metadata:
   requires:

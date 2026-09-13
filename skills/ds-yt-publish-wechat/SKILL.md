@@ -2,7 +2,7 @@
 name: ds-yt-publish-wechat
 version: v0.1.3
 language: zh-CN
-description: 大圣 YouTube 到微信公众号草稿箱的上层全自动发布流程 skill。默认模式串联 ds-yt-to-wechat-content、ds-cover-image、ds-post-to-wechat：把 YouTube 链接或转述摘要生成公众号稿，用 2.35:1 生成封面并上传 OSS，回填 cover_image 到同一篇文章，再发布到公众号草稿箱。适用于用户说“ds-yt-publish-wechat”“YouTube 一键发公众号”“把这个 YouTube 生成公众号并发草稿箱”“全自动发布公众号”“生成封面并发公众号”等场景。
+description: "将 YouTube 内容转成公众号文章，配封面并发布到草稿箱。"
 metadata:
   requires:
     skills:

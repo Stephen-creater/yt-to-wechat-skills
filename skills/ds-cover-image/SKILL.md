@@ -1,6 +1,6 @@
 ---
 name: ds-cover-image
-description: 大圣公众号封面图生成工具。把标题和正文（可选）拆成 5 个可调维度——构图类型、配色、笔法、文字密度、情绪强度——拼装成 prompt，调用 ds-imagine 出图，默认 16:9 适配微信公众号。触发条件：用户提到"生成封面""做封面""公众号封面""文章封面""配封面图""做个头图""cover image"。
+description: "在 ds 微信发布流程中生成公众号封面；也用于明确指定大圣封面工具的请求。"
 version: 1.0.0
 metadata:
   requires:

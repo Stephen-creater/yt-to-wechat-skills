@@ -1,6 +1,6 @@
 ---
 name: yt-dlp
-description: 使用本机已安装的 yt-dlp 下载或检查受支持网站的音视频、播放列表、字幕、缩略图和元数据时使用。默认行为：给一个 YouTube 链接即自动下载字幕转 Markdown + 下载封面上传 OSS（PicGo）并嵌入同一 Markdown 文件，写入 `03 素材管理/05 播客`。也支持下载 mp4/mp3/m4a、列格式、批量下载、断点续传、用 cookies 访问登录内容、保存 info.json 或排查 yt-dlp 报错。
+description: "用本机 yt-dlp 下载音视频、字幕或元数据；YouTube 素材归档按本技能约定。"
 ---
 
 # yt-dlp

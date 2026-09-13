@@ -1,6 +1,6 @@
 ---
 name: ds-post-to-wechat
-description: 大圣专用微信公众号草稿箱发布工具。支持两种产物——文章（长文，markdown/HTML/纯文本，TS 渲染主题）和小绿书（贴图号 newspic，纯文本 + 最多 20 张图）。所有微信 API 调用默认通过 SSH SOCKS5 隧道（dasheng-ecs）出口，绕开家宽 IP 漂移和 IP 白名单限制。触发条件：用户提到"发公众号""发到草稿箱""发文章""发小绿书""贴图号""post to wechat""微信公众号"。
+description: "通过已配置的 ds 发布链路，将文章或小绿书写入微信公众号草稿箱。"
 version: 1.0.3
 metadata:
   requires:
